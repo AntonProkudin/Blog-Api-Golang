@@ -1,0 +1,17 @@
+info:
+  contact: {}
+paths:
+  /auth/register:
+    post:
+      consumes:
+      - multipart/form-data
+      description: |-
+        Testing Swagger APIs.
+        Add a new User
+      produces:
+      - application/json
+      responses: {}
+      summary: Register User
+      tags:
+      - user
+swagger: "2.0"
